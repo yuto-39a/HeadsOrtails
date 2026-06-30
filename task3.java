@@ -6,7 +6,7 @@ public class task3{
       Scanner scanner = new Scanner(System.in);
       System.out.println("Who are you?");
       System.out.print("> ");
-      String name = sc.nextLine();
+      String name = scanner.nextLine();
       System.out.println("Hello, "+name+"!");
         System.out.println("Tossing a coin...");
         Random rand = new Random();
@@ -25,7 +25,7 @@ public class task3{
         }
             System.out.println("Heads: "+heads+", Tails: "+tails);
             if(heads>tails){
-              Syste.out.println("You won");
+              System.out.println("You won");
             }else{
               System.out.println("You lost");
             }
