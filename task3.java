@@ -19,6 +19,11 @@ public class task3{
             }
         }
             System.out.println("Heads: "+heads+", Tails: "+tails);
+            if(heads>tails){
+              Syste.out.println("You won");
+            }else{
+              System.out.println("You lost");
+            }
 }
 
 }
